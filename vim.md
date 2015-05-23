@@ -20,7 +20,7 @@ G | Go to the end of the file.
 nG  | Move to n'th line of file
 {/} | Go to the beginning/end of the current paragraph
 % | Go to the matching braces or parenthesis inside code
-<C-f> and <C-b> | scroll screen forward and backward
+C-f and C-b | scroll screen forward and backward
 z. | Put the line with the cursor at the center
 zt | Put the line with the cursor at the top
 zb | Put the line with the cursor at the bottom of the screen

@@ -1,3 +1,6 @@
 Command | Description
 ------- | ----------
 h,j,k,l | left, down, up, right - Considered more efficient than using the arrow keys
+:noh | Disable highlighting (After search)
+/ | Search
+? | Backwards search

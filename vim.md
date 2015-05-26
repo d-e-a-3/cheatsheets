@@ -35,3 +35,4 @@ d$ | Delete to the end of the line.
 :r FILENAME | Insert the contents of a file
 :r !ls | Read the output of the command and insert it below the cursor
 v  motion  :w FILENAME | saves the Visually selected lines in file FILENAME
+:setlocal spell spelllang=en_us | Enable spellcheck. 

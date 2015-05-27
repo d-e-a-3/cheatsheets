@@ -8,7 +8,7 @@ o / O | Insert new line after/before the current one
 A | Go to the end of line and append
 b | Go back a word
 db | Delete preceding word
-w | Go forward a word 
+w | Go forward a word
 dw | Delete next word
 cw | Change next word
 yy | Copy line
@@ -30,9 +30,10 @@ d$ | Delete to the end of the line.
 :s/old/new | To substitute new for the first old in a line type
 :s/old/new/g | To substitute new for all 'old's on a line type
 :#,#s/old/new/g | To substitute phrases between two line #'s type
-:%s/old/new/g | To substitute all occurrences in the file type 
+:%s/old/new/g | To substitute all occurrences in the file type
 :%s/old/new/gc | To ask for confirmation each time add 'c'
 :r FILENAME | Insert the contents of a file
 :r !ls | Read the output of the command and insert it below the cursor
 v  motion  :w FILENAME | saves the Visually selected lines in file FILENAME
-:setlocal spell spelllang=en_us | Enable spellcheck. 
+:setlocal spell spelllang=en_us | Enable spellcheck
+zg | Add the word that is under the cursor into (~/.vim/spell/spellfile

@@ -37,3 +37,5 @@ d$ | Delete to the end of the line.
 v  motion  :w FILENAME | saves the Visually selected lines in file FILENAME
 :setlocal spell spelllang=en_us | Enable spellcheck
 zg | Add the word that is under the cursor into (~/.vim/spell/spellfile
+:sp | Split windows horizontally
+:vsp | Split windows vertically

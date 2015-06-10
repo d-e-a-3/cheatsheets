@@ -11,3 +11,14 @@ git hash-object --stdin | Same as above, with extra option to read content from 
 git cat-file -p [hash key] | See the contents of the object with [hash key]
 git cat-file -t [hash key] | See type of object with [hash ley]
 git ls-files -s | Show index with file mode and hash of every file.
+
+## Git undoing
+
+Command | Description
+------- | -----------
+git revert [SHA] | Create a new commit that is the inverse of the given SHA. Does not alter history. So you can git push.
+git commit --amend | Update and replace most recent commit (before git push)
+git checkout -- [file/dir] | Undo local changes. Alters file/dir by checking out HEAD, the last commit. Working dir changes are forever lost.
+git reset [last good SHA] | Undo commits by rewinding to specified SHA. Add --hard to undo both commits and working dir changes.
+git reflog | Bring git-reset --hard changes back to life. Works for limited time (git garbage collection)
+git branch f; git reset --hard origin/master; git co f | Tranfer commits from master to f

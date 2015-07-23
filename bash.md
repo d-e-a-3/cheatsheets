@@ -15,7 +15,7 @@ for NAME [in List]; do CMDS; done | for loop. If in list not present use $@
 while CONTROL-CMD; do CMDS; done | while
 ARRAY=(one two three) | array declare
 ARRAY[3]=four | add element
-echo ${#ARRAY} | print array size
+echo ${#ARRAY[*]} | print array size
 echo ${ARRAY[*]} | print array
 echo ${ARRAY[2]} | print element
 delete ARRAY[1] | delete variable

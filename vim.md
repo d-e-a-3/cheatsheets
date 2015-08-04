@@ -9,11 +9,11 @@ w | Go forward a word
 ^ | Go to the first non blank character of the line.
 $ | Go to the end of the current line.
 G | Go to the end of the file.
-nG / :n | Move to n-th line of file
-{ / } | Go to the beginning/end of the current paragraph
+nG or :n | Move to n-th line of file
+{ or } | Go to the beginning/end of the current paragraph
 % | Go to the matching braces or parenthesis inside code
-C-f / C-b | scroll screen forward / backward
-C-d / C-u | Go down/up
+Ctrl-f or Ctrl-b | scroll screen forward / backward
+Ctrl-d or Ctrl-u | Go down/up
 Ctrl-o | Go to previous cursor location
 
 ### Edit
@@ -26,7 +26,7 @@ d$ | Delete to the end of the line.
 cw | Change next word
 ci<char> | Change inside <char> e.g. ci( to change inside parenthesis
 s | Substitute character
-o / O | Insert new line after/before the current one
+o or O | Insert new line after/before the current one
 A | Go to the end of line and append
 yy | Copy line
 p | Paste line
@@ -59,7 +59,7 @@ Ctrl-t | Jump back up in the tag stack
 
 Command | Description
 ------- | ----------
-C-g | Show status
+Ctrl-g | Show status
 z. | Put the line with the cursor at the center
 zt | Put the line with the cursor at the top
 zb | Put the line with the cursor at the bottom of the screen

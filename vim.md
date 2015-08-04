@@ -14,6 +14,7 @@ nG / :n | Move to n-th line of file
 % | Go to the matching braces or parenthesis inside code
 C-f / C-b | scroll screen forward / backward
 C-d / C-u | Go down/up
+Ctrl-o | Go to previous cursor location
 
 ### Edit
 

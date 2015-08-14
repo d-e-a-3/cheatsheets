@@ -1,5 +1,7 @@
 ## General
 
+Command | Description
+------- | -----------
 * **`#!/usr/bin/env [command]` instead of `#!/path/to/[command]`** | Uses the first occurance of [command] from the user's PATH
 * **`set -e` or `set -o errexit`** | exit immediately if a command exits with a non-zero status
 * **`$0`** | name of the script itself

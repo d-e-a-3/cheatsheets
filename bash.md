@@ -2,12 +2,12 @@
 
 Command | Description
 ------- | -----------
-**`#!/usr/bin/env [command]` instead of `#!/path/to/[command]`** | Uses the first occurance of [command] from the user's PATH
-**`set -e` or `set -o errexit`** | exit immediately if a command exits with a non-zero status
+**`#!/usr/bin/env [command]`** instead of **`#!/path/to/[command]`** | Uses the first occurance of [command] from the user's PATH
+**`set -e`** or **`set -o errexit`** | exit immediately if a command exits with a non-zero status
 **`$0`** | name of the script itself
 **`$1`, `$2`, ...** | first argument, second argument etc
 **`${10}`** | after 9, args must be enclosed in brackets
-**`$*` and `$@`** | all positional parameters
+**`$*`** and **`$@`** | all positional parameters
 **`$#`** | number of args passed
 **`shift`** | reassignes potitional parameters: $1 <- $2, $2 -< $3 etc
 **`if [ TEST-CMD ]; then CMDS; fi`** | if statement

@@ -18,6 +18,7 @@ Command | Description
 **`git reset [last good SHA]`** | Undo commits by rewinding to specified SHA. Add --hard to undo both commits and working dir changes.
 **`git reflog`** | Bring git-reset --hard changes back to life. Works for limited time (git garbage collection)
 **`git branch f; git reset --hard origin/master; git co f`** | Tranfer commits from master to f
+**`git rebase -i HEAD~3`** | Rearrange/edit last 3 commits
 
 
 ## Git History Viewing

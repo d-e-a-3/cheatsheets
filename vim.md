@@ -58,7 +58,7 @@ Ctrl-t | Jump back up in the tag stack
 ### Misc
 
 Command | Description
-------- | ----------
+------- | -----------
 Ctrl-g | Show status
 z. | Put the line with the cursor at the center
 zt | Put the line with the cursor at the top
@@ -66,7 +66,18 @@ zb | Put the line with the cursor at the bottom of the screen
 :r FILENAME | Insert the contents of a file
 :r !ls | Read the output of the command and insert it below the cursor
 v motion :w FILENAME | saves the Visually selected lines in file FILENAME
-:setlocal spell spelllang=en_us | Enable spellcheck
 zg | Add the word that is under the cursor into (~/.vim/spell/spellfile
 :sp | Split windows horizontally
 :vsp | Split windows vertically
+
+### Explorer Mode
+
+Command | Description
+------- | -----------
+:Explore | Enter file explore mode
+d | Create new directory
+% | Create and open file
+D | Delete directory or file
+R | Rename file
+o | Open file in horizontal split
+v | open file in vertical split

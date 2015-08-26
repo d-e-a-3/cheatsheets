@@ -29,3 +29,9 @@ Command | Description
 **`git log --stat`** | Show statistics of files modified
 **`git log -S`** | Only show commits adding or removing code matching the string
 **`git cat-file -p [commit SHA]`** | Pretty-print the contents of commit. Useful for finding commiter/author.
+
+## Git Misc Tips
+
+Command | Description
+------- | -----------
+**`git merge --no-ff`** | Construct a merge instead of fast-forwarding, to ensure that merges are explicitly shown in history.

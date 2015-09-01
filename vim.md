@@ -30,6 +30,7 @@ o or O | Insert new line after/before the current one
 A | Go to the end of line and append
 yy | Copy line
 p | Paste line
+<Ctrl-n> | Autocompletion
 
 ### Search
 

@@ -42,3 +42,4 @@ Command | Description
 Command | Description
 ------- | -----------
 **`git merge --no-ff`** | Construct a merge instead of fast-forwarding, to ensure that merges are explicitly shown in history.
+**`git push origin --delete <branch>`** | Delete remote branch

@@ -1,3 +1,3 @@
 # cheatsheets
 
-Memory never was my strongest point. 
+Memory never was my strongest point.

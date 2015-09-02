@@ -30,6 +30,13 @@ Command | Description
 **`git log -S`** | Only show commits adding or removing code matching the string
 **`git cat-file -p [commit SHA]`** | Pretty-print the contents of commit. Useful for finding commiter/author.
 
+## Git Remote Management
+
+Command | Description
+------- | -----------
+**`git reset --hard <commit-hash>`** & **` git push -f origin master`** | Revert remote commit. Use with caution.
+
+
 ## Git Misc Tips
 
 Command | Description

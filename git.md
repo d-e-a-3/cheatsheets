@@ -12,7 +12,7 @@ Command | Description
 
 Command | Description
 ------- | -----------
-**`git revert [SHA]`** | Create a new commit that is the inverse of the given SHA. Does not alter history. So you can git push.
+**`git revert [SHA]`** | Create a new commit that is the inverse of the given SHA. Does not alter history, so you can git push.
 **`git commit --amend`** | Edit message/files and update most recent commit (before git push)
 **`git checkout -- [file/dir]`** | Undo local changes. Alters file/dir by checking out HEAD, the last commit. Working dir changes are forever lost.
 **`git reset [last good SHA]`** | Undo commits by rewinding to specified SHA. Add --hard to undo both commits and working dir changes.
@@ -34,7 +34,8 @@ Command | Description
 
 Command | Description
 ------- | -----------
-**`git reset --hard <commit-hash>`** & **` git push -f origin master`** | Revert remote commit. Use with caution.
+**`git reset --hard <commit-hash>`** & **` git push -f origin master`** | **WARNING** Revert remote commit. Use with caution and do not use in collaborative projects. Use **`git revert`** instead
+
 
 
 ## Git Misc Tips

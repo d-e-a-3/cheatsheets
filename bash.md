@@ -6,7 +6,7 @@ Command | Description
 **`set -o errexit`** or **`set -e`** | exit immediately if a command exits with a non-zero status
 **`set -o pipefail`** | exit if any command in a pipe fails
 **`set -o nounset`** | exit when trying to use undeclared variables
-**`[cmd] &#124;&#124; true`** | use this for commands that you allow to fail
+**<code>cmd &#124;&#124; true</code>** | use this for commands that you allow to fail
 **`$0`** | name of the script itself
 **`$1`, `$2`, ...** | first argument, second argument etc
 **`${10}`** | after 9, args must be enclosed in brackets

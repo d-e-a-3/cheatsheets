@@ -20,7 +20,6 @@ Command | Description
 **`git branch f; git reset --hard origin/master; git co f`** | Tranfer commits from master to f
 **`git rebase -i HEAD~3`** | Rearrange/edit last 3 commits
 
-
 ## Git History Viewing
 
 Command | Description
@@ -35,8 +34,6 @@ Command | Description
 Command | Description
 ------- | -----------
 **`git reset --hard <commit-hash>`** & **` git push -f origin master`** | **WARNING** Revert remote commit. Use with caution and do not use in collaborative projects. Use **`git revert`** instead
-
-
 
 ## Git Misc Tips
 

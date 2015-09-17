@@ -29,3 +29,4 @@ Command | Description
 **`FUNCTION_NAME () { CMDS; }`** | declare function
 **`((a++))`** | Double parentheses for arithmetic operations
 **`[[ expr ]]`** | Prefer double brackets for extended functionality (&&, ||, regexes with =~)
+**`file=${1:-$DEFAULT}`** | Paremeter substitution example: provide default value for missing argument.

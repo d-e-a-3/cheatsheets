@@ -1,4 +1,4 @@
-## Mac OSx
+## OS X
 
 Command | Description
 ------- | -----------

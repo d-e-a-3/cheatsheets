@@ -14,9 +14,9 @@ Command | Description
 **`$*`** and **`$@`** | all positional parameters
 **`$#`** | number of args passed
 **`shift`** | reassignes potitional parameters: $1 <- $2, $2 -< $3 etc
-**`if [ TEST-CMD ]; then CMDS; fi`** | if statement
-**`if []; then else fi`** | if/then/else statement
-**`if []; then elif []; elif []; else fi`** | if/then/else if/else if/else
+**`if TEST-CMDS; then CMDS; fi`** | if statement
+**`if TEST-CMDS; then else fi`** | if/then/else statement
+**`if TEST-CMDS; then elif TEST-CMDS; elif TEST-CMDS; else fi`** | if/then/else if/else if/else
 **`for NAME [in List]; do CMDS; done`** | for loop. If in list not present it uses $@
 **`while CONTROL-CMD; do CMDS; done`** | while
 **`ARRAY=(one two three)`** | array declaration

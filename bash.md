@@ -30,3 +30,4 @@ Command | Description
 **`((a++))`** | Double parentheses for arithmetic operations
 **`[[ expr ]]`** | Prefer double brackets for extended functionality (&&, ||, regexes with =~)
 **`file=${1:-$DEFAULT}`** | Paremeter substitution example: provide default value for missing argument.
+**`fname=$(basename "$fname")`** : Get file without path

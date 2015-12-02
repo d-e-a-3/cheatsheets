@@ -35,6 +35,7 @@ Command | Description
 ------- | -----------
 **`git reset --hard <commit-hash>`** & **` git push -f origin master`** | **WARNING** Revert remote commit. Use with caution and do not use in collaborative projects. Use **`git revert`** instead
 **`git push --force-with-lease`** | Protect all remote refs that are going to be updated by requiring their current value to be the same as the remote-tracking branch we have for them.
+**`git remote show <remote>`** | Show branches in remote repo
 
 ## Git Misc Tips
 

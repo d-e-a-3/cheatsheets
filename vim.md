@@ -23,6 +23,7 @@ Command | Description
 db | Delete preceding word
 dw | Delete next word
 d$ | Delete to the end of the line.
+dfC | Delete until character 'C'
 cw | Change next word
 ci<char> | Change inside <char> e.g. ci( to change inside parenthesis
 s | Substitute character

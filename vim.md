@@ -37,8 +37,8 @@ p | Paste line
 
 Command | Description
 ------- | ----------
-/ | Search
-? | Backwards search
+/ or f | Search
+? or F | Backwards search
 :noh | Disable highlighting (After search)
 :s/old/new | To substitute new for the first old in a line
 :s/old/new/g | To substitute new for all 'old's on a line

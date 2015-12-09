@@ -28,6 +28,7 @@ Command | Description
 **`git log --stat`** | Show statistics of files modified
 **`git log -S`** | Only show commits adding or removing code matching the string
 **`git cat-file -p [commit SHA]`** | Pretty-print the contents of commit. Useful for finding commiter/author.
+**`git log -p <path>`** | Show history of specific path (or file).
 
 ## Git Remote Management
 

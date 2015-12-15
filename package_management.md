@@ -1,6 +1,6 @@
 # Linux Package Management
 
-## YUM
+## yum
 
 Command | Description
 ------- | -----------
@@ -8,14 +8,20 @@ Command | Description
 **`yum update`** | Update packages
 **`yum search <package>`** | search for package
 
-## APT-GET
+## apt-get
 
 Command | Description
 ------- | -----------
 **`apt-get install <package>`** | Install package
 
-## Brew
+## brew
 
 Command | Description
 ------- | -----------
 **`brew install <package>`** | Install package
+
+## npn
+
+Command | Description
+------- | -----------
+**`npm view <package> dependencies`** | Show package dependencies

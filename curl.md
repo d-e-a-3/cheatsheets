@@ -11,3 +11,4 @@ Command | Description
 **`-X <command>`** | use the  specified  request method instead of the method otherwise used (which defaults to GET).
 **`-s`** | Silent or quiet mode. Don't show progress meter or error messages
 **`-O`** | Write output to a local file named like the remote file we get.
+**`curl -G http://odata.org/endPoint/Resource --data-urlencode "$filter=FirstName eq 'Scott'"`** | Encode URL
